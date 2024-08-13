@@ -62,8 +62,9 @@ function displayPlaylists(playlistsGuardians) {
         const guardianDiv = document.createElement('div'); // Create a div in HTML
         guardianDiv.classList.add('playlist');  // Adds a class name to the div
 
-        const guardians = document.createElement('h2'); // Create h2 inn HTML
-        guardians.texttoContent = `${guardian}'s Playlist`; // Add content for the h2
+        const guardians = document.createElement('h2'); // Create h2 in HTML
+        guardians.textContent = `${guardian}'s Playlist`; // Add content for the h2
+        guardians.classList.add('Guardian')
         guardianDiv.appendChild(guardians); //Adds the content to the HTML
 
         const songList = document.createElement('ul'); // Create list in HTML
