@@ -53,7 +53,7 @@ function generatePlaylist(guardians, songs) {
 
 function displayPlaylists(playlistsGuardians) {
     const holderplaylist = document.getElementById('playlists'); // Stores variable for playlists div
-    containerplaylist.innerHTML = '';  // Clear any existing content
+    holderplaylist.innerHTML = '';  // Clear any existing content
 
 
     // Runs through each object in an object class and displays the content in html
